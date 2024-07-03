@@ -1,0 +1,95 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+*::-webkit-scrollbar {  
+    /* 스크롤바 가로는 지우고 세로는 안보이는데 기능은 있게 */
+    display: none; 
+    overflow-x: hidden;
+    overflow-y :scroll; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+header{
+    
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(240, 0, 0);
+    display: flex;  
+    position: fixed;
+    align-items: center;
+}
+.label_h{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    text-align: center;
+    float: left;
+    width: 7%;
+    height: 90%;
+}
+.label_a{
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.label_a:link{
+    color: white;
+}
+.label_a:visited { color:white; }
+.label_a:hover {
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 5px 5px 7px black ;
+    color:black ;
+ }
+.logo{
+    margin-top: auto;
+    padding-top:8px;
+    float: left;
+    margin-left: 1%;
+}
+.logo2{
+    width: 130px;
+    height: 140px;
+}
+.content{
+    width: 100vw;
+    height: 48.5vw;  
+    display: block;
+}
+
+.red{
+    float: left;
+    width: 10.5%;
+    height: 100%;
+    background-color:  rgb(240, 0, 0);
+}
+#mat{
+    position: fixed;
+    top:100px;
+
+    left: 100px;
+}
+#mats{
+
+    display: flex;
+}
+#mats>h1{
+    font-size: 100px;
+    margin-left: 100px;
+}
+#mats > img{
+    margin-bottom: 60px;
+    margin-left: 200px;
+    width: 130px;
+    height: 140px;
+}
+#mats > span{
+    margin-left: 150px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    font-weight: bold;
+}
